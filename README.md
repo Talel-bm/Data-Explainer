@@ -10,7 +10,6 @@ Main features:
 - Vector embeddings for text data using HuggingFace
 - Vector storage using ChromaDB for efficient searching
 - Query processing using the Llama 3.1 model via Ollama
-- Text-to-SQL conversion for database querying
 - Command-line interface for user interaction
 
 Built on the LlamaIndex framework, this tool is designed to help insurance professionals and analysts extract information from claim datasets using natural language queries.
