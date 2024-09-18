@@ -1,0 +1,5 @@
+llama-index==0.9.5
+pandas==1.5.3
+chromadb==0.4.22
+transformers==4.36.0
+torch==2.1.1
