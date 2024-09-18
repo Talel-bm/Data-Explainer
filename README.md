@@ -1,13 +1,19 @@
 # Insurance Claims Analyzer
 
-This project is an AI-powered tool for analyzing automobile insurance claims data. It uses advanced natural language processing techniques to query and analyze CSV data files containing insurance claim information.
+## Introduction
 
-## Features
+The Insurance Claims Analyzer is a sophisticated Natural Language Processing (NLP) and Machine Learning (ML) powered tool designed for in-depth analysis of automobile insurance claims data. This project leverages advanced vector embedding techniques and Large Language Models (LLMs) to enable semantic search and natural language querying of structured CSV data.
 
-- Custom CSV data loader with date parsing
-- Integration with Chroma vector store for efficient data querying
-- Query engine powered by the Llama 3.1 model via Ollama
-- Interactive command-line interface for querying the data
+Key technical features include:
+
+- **Custom CSV Data Ingestion**: Utilizes a bespoke CSV reader with intelligent date parsing and document structuring.
+- **Vector Embedding**: Implements HuggingFace embeddings to convert textual data into high-dimensional vector representations.
+- **Efficient Vector Storage**: Integrates ChromaDB as a vector store for optimized similarity search capabilities.
+- **LLM-Powered Query Engine**: Employs the Llama 3.1 model via Ollama for natural language understanding and query processing.
+- **Text-to-SQL Conversion**: Incorporates an LLM-based converter to translate natural language queries into executable SQL, bridging NLP with traditional database querying.
+- **Interactive CLI**: Provides a command-line interface for real-time data exploration and analysis.
+
+This tool is built on the LlamaIndex framework, offering a scalable and extensible architecture for handling large volumes of insurance claim data. It's designed to assist insurance professionals, data analysts, and researchers in extracting actionable insights from complex claim datasets through intuitive natural language interactions.
 
 ## Installation
 
