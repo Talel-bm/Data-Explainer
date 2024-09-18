@@ -2,17 +2,28 @@
 
 ## Introduction
 
-The Insurance Claims Analyzer is a Natural Language Processing (NLP) and Machine Learning (ML) powered tool designed for in-depth analysis of automobile insurance claims data. This project leverages vector embedding techniques and Large Language Models (LLMs) to enable semantic search and natural language querying of structured CSV data.
+The Insurance Claims Analyzer is a tool for processing and querying automobile insurance claims data. It combines natural language processing and database techniques to allow users to interact with structured CSV data using plain language queries.
 
-Key technical features include:
+Main features:
 
-- **Custom CSV Data Ingestion**: Utilizes a bespoke CSV reader with intelligent date parsing and document structuring.
-- **Vector Embedding**: Implements HuggingFace embeddings to convert textual data into high-dimensional vector representations.
-- **Efficient Vector Storage**: Integrates ChromaDB as a vector store for optimized similarity search capabilities.
-- **LLM-Powered Query Engine**: Employs the Llama 3.1 model via Ollama for natural language understanding and query processing.
-- **Interactive CLI**: Provides a command-line interface for real-time data exploration and analysis.
+- CSV data processing with date parsing
+- Vector embeddings for text data using HuggingFace
+- Vector storage using ChromaDB for efficient searching
+- Query processing using the Llama 3.1 model via Ollama
+- Text-to-SQL conversion for database querying
+- Command-line interface for user interaction
 
-This tool is built on the LlamaIndex framework, offering a scalable and extensible architecture for handling large volumes of insurance claim data. It's designed to assist insurance professionals, data analysts, and researchers in extracting actionable insights from complex claim datasets through intuitive natural language interactions.
+Built on the LlamaIndex framework, this tool is designed to help insurance professionals and analysts extract information from claim datasets using natural language queries.
+
+## Technical Overview
+
+- Data Ingestion: Custom CSV reader
+- Embedding Model: HuggingFace
+- Vector Store: ChromaDB
+- Language Model: Llama 3.1 (via Ollama)
+- Framework: LlamaIndex
+
+This tool processes CSV files, converts text to vector embeddings, stores these in a vector database, and uses a language model to interpret user queries and retrieve relevant information.
 
 ## Installation
 
