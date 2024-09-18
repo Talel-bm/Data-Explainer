@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Insurance Claims Analyzer is a sophisticated Natural Language Processing (NLP) and Machine Learning (ML) powered tool designed for in-depth analysis of automobile insurance claims data. This project leverages advanced vector embedding techniques and Large Language Models (LLMs) to enable semantic search and natural language querying of structured CSV data.
+The Insurance Claims Analyzer is a Natural Language Processing (NLP) and Machine Learning (ML) powered tool designed for in-depth analysis of automobile insurance claims data. This project leverages vector embedding techniques and Large Language Models (LLMs) to enable semantic search and natural language querying of structured CSV data.
 
 Key technical features include:
 
