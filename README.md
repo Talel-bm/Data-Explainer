@@ -10,7 +10,6 @@ Key technical features include:
 - **Vector Embedding**: Implements HuggingFace embeddings to convert textual data into high-dimensional vector representations.
 - **Efficient Vector Storage**: Integrates ChromaDB as a vector store for optimized similarity search capabilities.
 - **LLM-Powered Query Engine**: Employs the Llama 3.1 model via Ollama for natural language understanding and query processing.
-- **Text-to-SQL Conversion**: Incorporates an LLM-based converter to translate natural language queries into executable SQL, bridging NLP with traditional database querying.
 - **Interactive CLI**: Provides a command-line interface for real-time data exploration and analysis.
 
 This tool is built on the LlamaIndex framework, offering a scalable and extensible architecture for handling large volumes of insurance claim data. It's designed to assist insurance professionals, data analysts, and researchers in extracting actionable insights from complex claim datasets through intuitive natural language interactions.
