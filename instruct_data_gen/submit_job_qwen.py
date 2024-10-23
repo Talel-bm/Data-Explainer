@@ -114,10 +114,10 @@ def create_instruction_dataset_job(
 
 if __name__ == "__main__":
     # Get workspace details from environment variables or configure directly
-    workspace_name = os.getenv("WORKSPACE_NAME", "mltalel")
-    subscription_id = os.getenv("SUBSCRIPTION_ID", "877b760f-539d-43f5-8127-f2ab9891a58a")
-    resource_group = os.getenv("RESOURCE_GROUP", "ai")
-    compute_name = os.getenv("COMPUTE_NAME", "llama-compute")
+    workspace_name = os.getenv("WORKSPACE_NAME", "----")
+    subscription_id = os.getenv("SUBSCRIPTION_ID", "----")
+    resource_group = os.getenv("RESOURCE_GROUP", "---")
+    compute_name = os.getenv("COMPUTE_NAME", "----")
     
     # Suggested VM sizes for different workloads
     VM_SIZES = {
